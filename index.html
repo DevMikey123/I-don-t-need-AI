@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Google</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="header">
+        <div class="links">
+            <a href="https://www.google.com/imghp">Images</a>
+            <div class="apps-toggle" onclick="toggleApps()">
+                <span class="material-icons">apps</span>
+            </div>
+            <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+                <span class="material-icons" id="dark-mode-icon">brightness_4</span>
+            </div>
+        </div>
+        <div class="apps-menu" id="apps-menu">
+            <!-- Add your desired Google apps here -->
+            <a href="https://mail.google.com">Gmail</a>
+            <a href="https://maps.google.com">Maps</a>
+            <a href="https://www.youtube.com">YouTube</a>
+            <a href="https://play.google.com">Play</a>
+            <a href="https://news.google.com">News</a>
+            <a href="https://contacts.google.com">Contacts</a>
+            <a href="https://www.google.com/drive/">Drive</a>
+            <a href="https://www.google.com/calendar">Calendar</a>
+            <a href="https://translate.google.com">Translate</a>
+            <a href="https://photos.google.com">Photos</a>
+        </div>
+    </div>
+    <div class="container">
+        <div class="logo">
+            <img src="https://www.google.com/images/branding/googlelogo/2x/googlelogo_color_272x92dp.png" alt="Google">
+        </div>
+        <form class="search-bar" id="search-form">
+            <input type="text" name="q" id="search-box" placeholder="Search Google or type a URL">
+            <div class="search-icons">
+                <button type="button" id="image-search">
+                    <span class="material-icons">image</span>
+                </button>
+                <button type="button" id="voice-search">
+                    <span class="material-icons">mic</span>
+                </button>
+            </div>
+            <button type="submit"></button>
+        </form>
+        <div class="buttons">
+            <button id="google-search">Google Search</button>
+            <button id="feeling-lucky">I'm Feeling Lucky</button>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="footer-links">
+            <a href="https://maps.google.com">Maps</a>
+            <a href="https://www.google.com/drive/">Drive</a>
+            <a href="https://www.google.com/search?tbm=shop">Shopping</a>
+            <a href="https://www.google.com/finance">Finance</a>
+            <a href="https://news.google.com">News</a>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
